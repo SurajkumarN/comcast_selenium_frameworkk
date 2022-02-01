@@ -19,7 +19,7 @@ public class OrganizationTest extends BaseClass {
 	JavaUtility jLib = new JavaUtility();
 	Excelutility eLib = new Excelutility();
 
-	@Test(priority = 4 , groups = "SmokeTest")
+	@Test(groups = "SmokeTest")
 	public void createOrganizationTest() throws Throwable {
 
 		/* read data from excel */
@@ -46,7 +46,7 @@ public class OrganizationTest extends BaseClass {
 
 	}
 
-	@Test (priority = 1,groups = "RegressionTest")
+	@Test(groups = "RegressionTest")
 	public void CreateOrgWithIndustriesTypeTest() throws Throwable {
 
 		/* read data from excel */

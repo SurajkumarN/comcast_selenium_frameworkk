@@ -23,10 +23,10 @@ public class ContactTest extends BaseClass {
 	Excelutility eLib = new Excelutility();
 	JavaUtility jLib = new JavaUtility();
 	WebDriverUtility wLib = new WebDriverUtility();
-	
-	@Test(priority = 1,groups = "SmokeTest")
+
+	@Test(groups = "SmokeTest")
 	public void CreateContactTest() throws Throwable {
-		
+
 		/* read data from excel */
 		String lastName = eLib.getDataFromExcel("Sheet2", 1, 2) + jLib.getRandomNumber();
 
@@ -45,12 +45,12 @@ public class ContactTest extends BaseClass {
 		/* Step 4: Verification of the contact created */
 		ContactInformationPage cip = new ContactInformationPage(driver);
 		String actContact = cip.getContactSucMsg().getText();
-		//String actContact ="xxx";
+		// String actContact ="xxx";
 		Assert.assertTrue(actContact.contains(lastName));
 		Reporter.log("Contact Name Created successfully ====>C1 Test Script Pass", true);
 	}
 
-	@Test(priority = 2,groups = "RegressionTest")
+	@Test(groups = "RegressionTest")
 	public void CreateContactWithOrganizationTest() throws Throwable {
 
 		/* read data from excel */
@@ -89,7 +89,7 @@ public class ContactTest extends BaseClass {
 		String actContactOrg = cip.getContactOrgSucMsg().getText();
 
 		Assert.assertTrue(actContactOrg.contains(orgName));
-		Reporter.log("Contact with Organization created Successfully ====>C2 TestScript Pass",true);
-		
+		Reporter.log("Contact with Organization created Successfully ====>C2 TestScript Pass", true);
+
 	}
 }
