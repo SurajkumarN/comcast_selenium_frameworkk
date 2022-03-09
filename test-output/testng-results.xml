@@ -1,105 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
-    <line>
-      <![CDATA[==== Browser Launched Succesfully ====]]>
-    </line>
-    <line>
-      <![CDATA[Login Page is Dispalyed]]>
-    </line>
-    <line>
-      <![CDATA[---- Application Login ----]]>
-    </line>
-    <line>
-      <![CDATA[Organization created with industry successfully ====>O2 Testscript pass]]>
-    </line>
-    <line>
-      <![CDATA[---- Application Logout ----]]>
-    </line>
-    <line>
-      <![CDATA[---- Application Login ----]]>
-    </line>
-    <line>
-      <![CDATA[Organization created successfully ====>O1 Testscript pass]]>
-    </line>
-    <line>
-      <![CDATA[---- Application Logout ----]]>
-    </line>
-    <line>
-      <![CDATA[==== Browser Successfuly Closed ====]]>
-    </line>
   </reporter-output>
-  <suite started-at="2022-02-01T16:01:49 IST" name="Default suite" finished-at="2022-02-01T16:02:13 IST" duration-ms="24257">
+  <suite started-at="2022-03-09T19:49:54 IST" name="Default suite" finished-at="2022-03-09T19:49:54 IST" duration-ms="93">
     <groups>
-      <group name="SmokeTest">
-        <method signature="OrganizationTest.createOrganizationTest()[pri:4, instance:com.crm.comcast.orgTest.OrganizationTest@b9b00e0]" name="createOrganizationTest" class="com.crm.comcast.orgTest.OrganizationTest"/>
-      </group> <!-- SmokeTest -->
-      <group name="RegressionTest">
-        <method signature="OrganizationTest.CreateOrgWithIndustriesTypeTest()[pri:1, instance:com.crm.comcast.orgTest.OrganizationTest@b9b00e0]" name="CreateOrgWithIndustriesTypeTest" class="com.crm.comcast.orgTest.OrganizationTest"/>
-      </group> <!-- RegressionTest -->
     </groups>
-    <test started-at="2022-02-01T16:01:49 IST" name="Default test" finished-at="2022-02-01T16:02:13 IST" duration-ms="24257">
-      <class name="com.crm.comcast.orgTest.OrganizationTest">
-        <test-method is-config="true" signature="openbrowser()[pri:0, instance:com.crm.comcast.orgTest.OrganizationTest@b9b00e0]" started-at="2022-02-01T16:01:49 IST" name="openbrowser" finished-at="2022-02-01T16:01:51 IST" duration-ms="2143" status="PASS">
+    <test started-at="2022-03-09T19:49:54 IST" name="Default test" finished-at="2022-03-09T19:49:54 IST" duration-ms="93">
+      <class name="com.crm.comcast.GenericLibrary.Date">
+        <test-method signature="date()[pri:0, instance:com.crm.comcast.GenericLibrary.Date@1af2d44a]" started-at="2022-03-09T19:49:54 IST" name="date" finished-at="2022-03-09T19:49:54 IST" duration-ms="34" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[==== Browser Launched Succesfully ====]]>
-            </line>
-            <line>
-              <![CDATA[Login Page is Dispalyed]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- openbrowser -->
-        <test-method is-config="true" signature="login()[pri:0, instance:com.crm.comcast.orgTest.OrganizationTest@b9b00e0]" started-at="2022-02-01T16:01:51 IST" name="login" finished-at="2022-02-01T16:01:53 IST" duration-ms="1772" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[---- Application Login ----]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="CreateOrgWithIndustriesTypeTest()[pri:1, instance:com.crm.comcast.orgTest.OrganizationTest@b9b00e0]" started-at="2022-02-01T16:01:53 IST" name="CreateOrgWithIndustriesTypeTest" finished-at="2022-02-01T16:02:03 IST" duration-ms="9564" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Organization created with industry successfully ====>O2 Testscript pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- CreateOrgWithIndustriesTypeTest -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.crm.comcast.orgTest.OrganizationTest@b9b00e0]" started-at="2022-02-01T16:02:03 IST" name="logout" finished-at="2022-02-01T16:02:04 IST" duration-ms="997" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[---- Application Logout ----]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method is-config="true" signature="login()[pri:0, instance:com.crm.comcast.orgTest.OrganizationTest@b9b00e0]" started-at="2022-02-01T16:02:04 IST" name="login" finished-at="2022-02-01T16:02:05 IST" duration-ms="1573" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[---- Application Login ----]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="createOrganizationTest()[pri:4, instance:com.crm.comcast.orgTest.OrganizationTest@b9b00e0]" started-at="2022-02-01T16:02:05 IST" name="createOrganizationTest" finished-at="2022-02-01T16:02:12 IST" duration-ms="7069" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Organization created successfully ====>O1 Testscript pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- createOrganizationTest -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.crm.comcast.orgTest.OrganizationTest@b9b00e0]" started-at="2022-02-01T16:02:12 IST" name="logout" finished-at="2022-02-01T16:02:13 IST" duration-ms="1004" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[---- Application Logout ----]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.comcast.orgTest.OrganizationTest@b9b00e0]" started-at="2022-02-01T16:02:13 IST" name="closeBrowser" finished-at="2022-02-01T16:02:13 IST" duration-ms="81" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[==== Browser Successfuly Closed ====]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- com.crm.comcast.orgTest.OrganizationTest -->
+        </test-method> <!-- date -->
+      </class> <!-- com.crm.comcast.GenericLibrary.Date -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
